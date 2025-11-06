@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-	background-color: aqua
+.menu a {
+	color: red;
+	text-decoration:none;
 }
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,11 @@ body {
 }
 
 img {
-	height: ;
+	clip-path: circle(42.6%);
+	max-width: 70%;
+	width: auto;
+	max-height: 70%;
+	height: auto;
 }
 
 .top-bar {
@@ -18,17 +24,15 @@ img {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background: #BE181B;
+	background: darkred;
 	height: 110px;
 	padding: 5px;
-	
 }
 
 .menu {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	
 }
 
 li {
@@ -69,7 +73,6 @@ li {
 #activate:checked + .menu-box .icon::before {
 	margin-top: 0;
 	transform: rotate(45deg);
-	
 }
 
 #activate:checked + .menu-box .icon::after {
@@ -83,7 +86,6 @@ li {
 
 #activate {
 	display: none;
-	
 }
 
 .menu-box {
@@ -127,6 +129,6 @@ li {
 		margin: 0;
 		padding: 5px;
 		width: 100%;
-		background: #BE181B;
+		background: darkred;
 	}
 }
