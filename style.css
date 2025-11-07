@@ -10,17 +10,22 @@
 	padding: 0px;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
-.apps {
-	float: both;
+.apps ul {
+	float: right;
+}
+
+.apps p {
+	float: left;
+	margin-top: 10%;
 }
 .apps li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	clear: both;
+	float: both;
 }
+
 li img {
-	float: right;
 	margin: 10px;
 	height: 150px;
 	width: 150px;
