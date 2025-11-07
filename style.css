@@ -26,6 +26,27 @@ li img {
 	width: 150px;
 }
 
+.front {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+.front p {
+	margin-left: 10%;
+	
+}
+
+.bigportrait {
+	clip-path: circle(42.6%);
+	position: relative;
+	float: right;
+	max-width: 50%;
+	height: auto;
+	width: auto;
+	margin-left: 15%;
+}
+
 .portrait {
 	clip-path: circle(42.6%);
 	width: 120px;
