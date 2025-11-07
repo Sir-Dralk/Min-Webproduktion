@@ -10,6 +10,21 @@
 	padding: 0px;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
+.apps {
+	float: both;
+}
+.apps li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	clear: both;
+}
+li img {
+	float: right;
+	margin: 10px;
+	height: 150px;
+	width: 150px;
+}
 
 .portrait {
 	clip-path: circle(42.6%);
