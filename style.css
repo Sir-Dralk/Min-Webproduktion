@@ -11,12 +11,9 @@
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
 
-img {
+.portrait {
 	clip-path: circle(42.6%);
-	max-width: 70%;
-	width: auto;
-	max-height: 70%;
-	height: auto;
+	width: 120px;
 }
 
 .top-bar {
